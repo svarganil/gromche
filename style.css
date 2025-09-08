@@ -187,7 +187,6 @@ body {
   flex-direction: column;
   padding: 48px;
   padding-bottom: 16px;
-  height: 100%;
 }
 
 .content-bottom {
@@ -250,7 +249,6 @@ body {
 .title {
   font-size: 36px;
   font-weight: 500;
-  margin-top: auto;
 }
 
 .description {
@@ -293,11 +291,11 @@ body {
   .content-top,
   .content-bottom {
     padding: 20px;
-    padding-bottom: 10px;
   }
 
   .title {
     font-size: 28px;
+    margin-top: 10px; /* Отменяем margin-top: auto и устанавливаем небольшой отступ */
   }
 
   .description,
@@ -306,6 +304,6 @@ body {
   }
 
   .button-link {
-    margin-top: 15px;
+    margin-top: 10px; /* Уменьшаем отступ сверху для кнопки */
   }
 }
