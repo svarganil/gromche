@@ -193,7 +193,8 @@ body {
   display: flex;
   flex-direction: column;
   padding: 48px;
-  padding-top: 16px;
+  padding-top: 5px; /* Уменьшаем padding-top для контент-бота */
+  padding-bottom: 20px;
 }
 
 .button-glass {
@@ -249,6 +250,7 @@ body {
 .title {
   font-size: 36px;
   font-weight: 500;
+  margin-top: 20px;
 }
 
 .description {
@@ -295,15 +297,19 @@ body {
 
   .title {
     font-size: 28px;
-    margin-top: 10px; /* Отменяем margin-top: auto и устанавливаем небольшой отступ */
+    margin-top: 20px; /* Устанавливаем margin-top 20px, чтобы опустить его как и везде */
   }
 
-  .description,
+  .description {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
   .button-glass {
     font-size: 12px;
   }
 
   .button-link {
-    margin-top: 10px; /* Уменьшаем отступ сверху для кнопки */
+    margin-top: 5px;
   }
 }
