@@ -267,3 +267,34 @@ body {
   margin-top: 20px;
   text-decoration: none;
 }
+
+@media (max-width: 600px) {
+  .canvas-container {
+    width: 304px;
+    height: 454px;
+  }
+
+  .electric-border-canvas {
+    width: 400px;
+    height: 550px;
+  }
+
+  .content-top,
+  .content-bottom {
+    padding: 20px;
+    padding-bottom: 10px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .description,
+  .button-glass {
+    font-size: 12px;
+  }
+
+  .button-link {
+    margin-top: 15px;
+  }
+}
