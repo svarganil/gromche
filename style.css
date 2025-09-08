@@ -310,4 +310,8 @@ body {
   .button-link {
     margin-top: 15px;
   }
+
+  .main-card {
+    filter: none;
+  }
 }
